@@ -224,7 +224,7 @@ section {
 
 .middle-divider {
     width: 2px;
-    background: linear-gradient( to bottom, var(--sarah-line), var(--emma-line));
+    background: linear-gradient(to bottom, var(--sarah-line), var(--emma-line));
     height: 100%;
 }
 
@@ -373,7 +373,7 @@ iframe,
     width: 150px;
     height: 2px;
     margin: 70px auto;
-    background: linear-gradient( to right, var(--sarah-line), var(--emma-line));
+    background: linear-gradient(to right, var(--sarah-line), var(--emma-line));
 }
 
 
@@ -490,14 +490,27 @@ iframe,
 }
 
 .emma-placeholder {
+
     min-height: 300px;
-    border: 2px dashed rgba(0, 0, 0, .2);
-    border-radius: 20px;
+
+    border: none;
+
+    background: transparent;
+
     display: flex;
+
     align-items: center;
+
     justify-content: center;
-    background: white;
-    font-weight: 700;
+}
+
+.emma-placeholder img {
+
+    max-width: 100%;
+
+    height: auto;
+
+    display: block;
 }
 
 .impact-question {
@@ -667,21 +680,27 @@ iframe,
     .comparison-grid {
         grid-template-columns: 1fr;
     }
+
     .middle-divider {
         display: none;
     }
+
     .remaining-budget-wrapper {
         grid-template-columns: 1fr;
     }
+
     .monthly-layout {
         grid-template-columns: 1fr;
     }
+
     .big-question-layout {
         grid-template-columns: 1fr;
     }
+
     .impact-question {
         text-align: center;
     }
+
     .free-grid {
         grid-template-columns: 1fr 1fr;
     }
@@ -691,18 +710,23 @@ iframe,
     .nav-links {
         display: none;
     }
+
     .free-grid {
         grid-template-columns: 1fr;
     }
+
     .section {
         padding: 75px 24px;
     }
+
     .hero {
         min-height: auto;
     }
+
     .hero h1 {
         font-size: 3rem;
     }
+
     .impact-section {
         padding: 100px 24px;
     }
@@ -829,17 +853,20 @@ iframe,
 }
 
 @media(max-width:1000px) {
+
     .leisure-intro,
     .leisure-chart-wrapper,
     .bridge-section,
     .explanation-grid {
         grid-template-columns: 1fr;
     }
+
     .activity-icons-left,
     .activity-icons-right {
         flex-direction: row;
         justify-content: center;
     }
+
     .leisure-intro h3 {
         font-size: 2rem;
     }
