@@ -756,6 +756,12 @@ iframe,
     align-items:center;
 }
 
+.giant-chart iframe{
+    width:100% !important;
+    height:100% !important;
+    border:none;
+}
+
 .giant-chart {
     min-height: 750px;
     padding: 0;
