@@ -18,7 +18,7 @@
     --radius-sm: 12px;
     --radius-md: 20px;
     --radius-lg: 32px;
-    --max-width: 1500px;
+    --max-width: 1700px;
 }
 
 .section {
@@ -747,11 +747,12 @@ iframe,
     display:grid;
 
     grid-template-columns:
-        170px
-        minmax(800px,1fr)
-        170px;
+    170px
+    1fr
+    170px;
 
     gap:40px;
+    margin-top:80px;
 
     align-items:center;
 }
@@ -762,10 +763,13 @@ iframe,
     border:none;
 }
 
-.giant-chart {
-    min-height: 750px;
-    padding: 0;
-    overflow: hidden;
+.giant-chart{
+
+    min-height:850px;
+
+    padding:0;
+
+    overflow:hidden;
 }
 
 .activity-icons-left,
@@ -776,19 +780,24 @@ iframe,
 }
 
 .activity-placeholder{
-    background:white;
-    border-radius:24px;
-    padding:35px 20px;
 
-    min-height:140px;
+    background:white;
+
+    border-radius:24px;
+
+    min-height:160px;
+
+    padding:20px;
 
     display:flex;
-    align-items:center;
-    justify-content:center;
 
-    font-size:1.1rem;
-    font-weight:700;
+    justify-content:center;
+    align-items:center;
+
     text-align:center;
+
+    font-size:1rem;
+    font-weight:700;
 }
 
 .explanation-grid {
