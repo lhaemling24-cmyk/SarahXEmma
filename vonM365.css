@@ -454,16 +454,28 @@ iframe,
 }
 
 .side-image {
+
     min-height: 320px;
-    border: 2px dashed rgba(0, 0, 0, .2);
-    border-radius: 20px;
+
+    border: none;
+
+    background: transparent;
+
     display: flex;
+
     justify-content: center;
+
     align-items: center;
-    background: white;
-    font-weight: 700;
 }
 
+.side-image img {
+
+    max-width: 100%;
+
+    height: auto;
+
+    display: block;
+}
 
 /* =======================================================
    IMPACT SECTION
