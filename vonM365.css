@@ -744,22 +744,27 @@ iframe,
 }
 
 .leisure-chart-wrapper{
+
     display:grid;
 
     grid-template-columns:
-    170px
-    1fr
-    170px;
+    220px
+    minmax(1000px,1fr)
+    220px;
 
-    gap:40px;
-    margin-top:80px;
+    gap:30px;
 
     align-items:center;
 }
 
 .giant-chart iframe{
+
     width:100% !important;
-    height:100% !important;
+
+    max-width:100% !important;
+
+    display:block;
+
     border:none;
 }
 
