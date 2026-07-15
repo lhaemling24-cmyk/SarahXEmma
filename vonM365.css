@@ -1087,6 +1087,15 @@ iframe,
     text-align: center;
 }
 
+.hamburg-story-text {
+
+    max-width: 900px;
+
+    margin: 0 auto;
+
+    text-align: center;
+}
+
 .hamburg-category h2 {
 
     font-size: 2.2rem;
