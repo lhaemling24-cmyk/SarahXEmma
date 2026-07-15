@@ -583,6 +583,11 @@ iframe,
     gap: 24px;
 }
 
+.freebies-grid a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .freebie-card {
     background-color: #fff;
     border-radius: var(--radius-md);
@@ -633,6 +638,15 @@ iframe,
     height: 6px;
     border-radius: 50%;
     background-color: var(--color-emma-deep);
+}
+
+.freebie-link {
+
+    text-decoration: none;
+
+    color: inherit;
+
+    display: block;
 }
 
 .deals-banner {
