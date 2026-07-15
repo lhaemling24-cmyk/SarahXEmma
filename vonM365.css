@@ -1006,3 +1006,42 @@ iframe,
 .month-center .chart-placeholder {
     padding: 10px;
 }
+
+.info-box {
+    background: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .05);
+}
+
+/* ==========================================
+   CONCLUSION IMAGES
+========================================== */
+
+.conclusion-layout {
+
+    display: grid;
+
+    grid-template-columns:
+        220px 1fr 220px;
+
+    gap: 40px;
+
+    align-items: center;
+}
+
+.conclusion-image {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+.conclusion-image img {
+
+    width: 220px;
+
+    height: auto;
+
+    display: block;
+}
