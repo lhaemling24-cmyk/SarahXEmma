@@ -1149,6 +1149,8 @@ iframe,
     margin-bottom: 20px;
 
     line-height: 1.15;
+
+    align-items: center;
 }
 
 .ending-text h3 {
@@ -1158,6 +1160,8 @@ iframe,
     font-size: 1.4rem;
 
     font-weight: 600;
+
+    align-items: center;
 }
 
 @media(max-width:1000px) {
