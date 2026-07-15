@@ -1119,16 +1119,18 @@ iframe,
 
 .hamburg-story-ending {
 
-    margin-top: 120px;
+    max-width: 1000px;
 
-    display: grid;
+    margin: 120px auto 0 auto;
 
-    grid-template-columns:
-        220px 1fr 220px;
+    text-align: center;
+}
 
-    gap: 40px;
+.hamburg-story-text {
 
-    align-items: center;
+    max-width: 900px;
+
+    margin: 0 auto;
 
     text-align: center;
 }
