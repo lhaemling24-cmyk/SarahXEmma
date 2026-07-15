@@ -171,7 +171,12 @@ section {
 
 .nav-links {
     display: flex;
-    gap: 28px;
+
+    gap: 18px;
+
+    flex-wrap: wrap;
+
+    justify-content: flex-end;
 }
 
 .nav-links a {
@@ -1191,4 +1196,17 @@ iframe,
 
         grid-template-columns: 1fr;
     }
+}
+
+.housing-text {
+
+    max-width: 900px;
+
+    margin: 40px auto 0 auto;
+
+    text-align: center;
+
+    color: var(--text-soft);
+
+    line-height: 1.7;
 }
