@@ -998,3 +998,11 @@ iframe,
     object-fit: cover;
     display: block;
 }
+
+.monthly-layout {
+    grid-template-columns: 120px 1fr 120px;
+}
+
+.month-center .chart-placeholder {
+    padding: 10px;
+}
