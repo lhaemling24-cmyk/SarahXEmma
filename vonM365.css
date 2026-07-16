@@ -721,6 +721,13 @@ iframe,
     border-top: 1px solid rgba(0, 0, 0, .08);
 }
 
+.footer-image {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 
 /* =======================================================
    RESPONSIVE
