@@ -525,6 +525,21 @@ iframe,
     align-items: center;
 }
 
+.bridge-text {
+    text-align: center;
+}
+
+.bridge-text h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.bridge-text h3 {
+    font-size: 2rem;
+    line-height: 1.25;
+    margin-bottom: 20px;
+}
+
 .emma-placeholder {
 
     min-height: 300px;
